@@ -6,19 +6,19 @@
 
 1. 代码块渲染
 
-![](demo/code.png)
+![](https://github.com/hexo-simple-theme/theme_demo/code.png)
 
 2. 本地搜索(需要`hexo-generator-search`npm包)
 
-![](demo/search.png)
+![](https://github.com/hexo-simple-theme/theme_demo/search.png)
 
 3. 高仿`bootstrap`附加导航
 
-![](demo/guide.png)
+![](https://github.com/hexo-simple-theme/theme_demo/guide.png)
 
 4. 可切换`mathjax`和`katex`数学公式渲染
 
-![](demo/latex.png)
+![](https://github.com/hexo-simple-theme/theme_demo/latex.png)
 
 # 文件组织
 
@@ -78,4 +78,4 @@
 
 # 增强美化
 
-[]()
+[hexo_ejs](https://github.com/hexo-simple-theme/hexo_ejs)

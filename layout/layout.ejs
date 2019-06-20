@@ -1,0 +1,52 @@
+<!-- 通用模板 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- jquery -->
+  <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  
+  <%- partial('partial/head.ejs') %>
+  
+  <%- css('css/style') %>
+
+</head>
+
+<body onload="my_load()" onresize="my_resize()">
+
+  <!-- latex公式加载 -->
+  <%- partial('partial/latex') %>
+
+  
+  <% if (theme.debug.enable) { %>
+    <p>is home: <%- is_home() %></p>
+    <p>is tag: <%- is_tag() %></p>
+    <p>is category: <%- is_category() %></p>
+    <p>is archive: <%- is_archive() %></p>
+    <p>is post: <%- is_post() %></p>
+    <p>pagecur: <%- page.current %></p>
+  <% } %>
+  
+  <!-- 链接 -->
+  <%- partial('partial/header') %>
+  
+  <!-- 搜索功能 -->
+  <%- js('js/load', 'js/search') %>
+
+  <!-- 手写代码高亮 -->
+  <%- js('js/highlight') %>
+
+  <!-- dfs -->
+  <%- js('js/filter') %>
+
+  <!-- 对应每个网页的layout -->
+  <%- body %>
+
+  <!-- 网页自动调整核心代码 -->
+  <%- js('js/change') %>
+</body>
+
+</html>

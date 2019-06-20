@@ -1,0 +1,124 @@
+/**
+ * 站名,标题字体,代码字体,链接字体等
+ */
+ 
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: large;
+}
+
+code {
+  /* 行间代码 */
+  font-family: monospace;
+  font-size: large;
+  word-break: break-all;
+  background-color: var(--code_grey);
+}
+
+.code_pre {
+  /* 大代码块 */
+  font-size: larger;
+}
+
+
+#web_name {
+  /* 网站名 */
+  transition-duration: 0.5s;
+  font-size: 55px;
+  font-weight: bold;
+  
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 0px 2px #000;
+}
+
+
+.post_title {
+  /* 摘要页 */
+  transition-duration: 0.5s;
+  font-size: 25px;
+  font-weight: bold;
+  
+  margin-top: 20px;
+  display: block;
+
+  text-decoration: none;
+}
+
+
+#post_name {
+  /* 内容页 */
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#guide_title {
+  transition-duration: 0.5s;
+  font-weight: 900;
+
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.guide_2 {
+  margin-left: 10px;
+}
+
+.guide_3 {
+  margin-left: 20px;
+}
+
+.guide_4 {
+  margin-left: 30px;
+}
+
+.guide_5 {
+  margin-left: 40px;
+}
+
+.guide_active {
+  border-right: 3px solid var(--box_orange);
+  border-left: 3px solid var(--text_orange);
+  border-radius: 3px;
+  background-color: var(--box_orange);
+}
+
+.guide_1,
+.guide_2,
+.guide_3,
+.guide_4,
+.guide_5 {
+  padding-left: 15px;
+  position: relative;
+  font-size: medium;
+
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+#guide_title:hover,
+.guide_1:hover,
+.guide_2:hover,
+.guide_3:hover,
+.guide_4:hover,
+.guide_5:hover {
+  color: var(--text_orange);
+}
+
+.bar_section {
+  font-weight: 900;
+}
+
+.bar_item {
+  /* 右侧的tags和categories */
+  transition-duration: 1s;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+  text-decoration: none;
+  margin: 2px;
+}

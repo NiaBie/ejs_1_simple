@@ -1,0 +1,39 @@
+:root {
+  --shadow_grey: rgba(153, 153, 153, 1);
+  --box_grey: rgba(237, 237, 237, 1);
+  --text_orange: rgba(252, 100, 35, 1);
+  --box_orange: rgba(255, 206, 189, 1);
+  --text_grey: rgba(99, 99, 99, 1);
+  --code_grey: rgba(230, 230, 230, 1);
+  --text_blue: rgba(0, 191, 255, 1);
+  --link_blue: rgba(32, 178, 170, 1);
+  --hover_blue: rgba(72, 209, 204, 1);
+  --normal_green: rgba(0, 210, 0, 1);
+  --light_green: rgba(0, 245, 87, 1);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mid_container {
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+@import "search.styl"
+/* 本地搜索器的样式 */
+@import "code_normal.styl"
+/* 手写代码高亮 */
+
+@import "block.css"
+@import "tool.css"
+@import "font.css"
+@import "paper.styl"
+/* 正文样式 */

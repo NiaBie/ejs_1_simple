@@ -76,6 +76,6 @@
   `-_config.yml:一些主题变量的声明(live2d在此精简版中无效)
 ```
 
-# 增强美化
+# 优化版
 
 [hexo_ejs](https://github.com/hexo-simple-theme/hexo_ejs)

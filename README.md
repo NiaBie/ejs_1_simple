@@ -25,7 +25,7 @@
 4. 可切换`mathjax`和`katex`数学公式渲染
 
 <div align="center">
-  <img width="500px" src="https://github.com/hexo-simple-theme/theme_demo/blob/master/latex.png"> 
+  <img width="300px" src="https://github.com/hexo-simple-theme/theme_demo/blob/master/latex.png"> 
 </div>
 
 # 文件组织

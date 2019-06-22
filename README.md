@@ -19,7 +19,7 @@
 3. 高仿`bootstrap`附加导航
 
 <div align="center">
-  <img width="500px" src="https://github.com/hexo-simple-theme/theme_demo/blob/master/guide.png"> 
+  <img width="700px" src="https://github.com/hexo-simple-theme/theme_demo/blob/master/guide.png"> 
 </div>
 
 4. 可切换`mathjax`和`katex`数学公式渲染
